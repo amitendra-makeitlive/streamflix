@@ -20,7 +20,8 @@ object AllMoviesForYouProvider : Provider {
 
     override val name = "AllMoviesForYou"
     override val logo = "https://i0.wp.com/allmoviesforyou.net/wp-content/uploads/2021/04/cropped-cropped-allmoviesforyou-logo-header-HD.png?w=800&ssl=1"
-    override val url = "https://allmoviesforyou.net/"
+    //override val url = "https://allmoviesforyou.net/"
+    override val url = "https://allmovies.gg/"
 
     private val service = AllMoviesForYouService.build()
 
